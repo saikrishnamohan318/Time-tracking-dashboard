@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+    padding: 10px;
+    background-color: hsl(226, 43%, 10%);
+    width: 1300px;
+}
+.div {
+    width: 775px;
+    height: 520px;
+    transform: translate(270px, 20%);
+} 
+.div1 {
+    width: 180px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+.grid-container {
+    display: grid;
+    grid-template-rows: 210px;
+    grid-template-columns: 200px 200px 200px;
+    position: relative;
+    left: 195px;
+    bottom: 400px;
+}
+.name {
+    background-color: hsl(246, 80%, 60%);
+    padding: 20px;
+    color: aliceblue;
+    padding-right: 50px;
+    padding-bottom: 32px;
+    border-radius: 10px;
+}
+.jerney {
+    font-size: 30px;
+    line-height: normal;
+}
+.report {
+    color: hsl(236, 100%, 87%);
+    margin: 40px auto 0px auto;
+    font-size: 12px;
+}
+#img {
+    width: 60px;
+    border: 2px solid white;
+}
+.row {
+    padding: 20px;
+}
+.a {
+    color: hsl(236, 100%, 87%);
+    text-decoration: none;
+    margin: 10px auto;
+}
+.a:hover {
+    color: aliceblue;
+    cursor: pointer;
+}
+.wt {
+    background-color: hsl(226, 43%, 10%);
+    width: 180px;
+    height: 150px;
+    border-radius: 10px;
+    transform: translateY(40px);
+    color: aliceblue;
+    padding: 20px;
+}
+.wt:hover {
+    background-color: hsl(224, 16%, 24%);
+
+}
+.images {
+    width: 60px;
+    float: right;
+    margin-right: 20px;
+}
+.w {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.five {
+    font-size: 40px;
+    margin-bottom: 0px;
+    display: none;
+    position: relative;
+}
+.fa-solid {
+    position: relative;
+    right: -80px;
+    color: hsl(236, 100%, 87%);
+}
+.fa-solid:hover {
+    color: aliceblue;
+}
+.ld {
+    font-size: 10px;
+    color: hsl(236, 100%, 87%);
+    display: none;
+    position: relative;
+}
+.work {
+    background-color: hsl(15, 100%, 70%);
+    width: 180px;
+    height: 190px;
+    border-radius: 10px;
+}
+.play {
+    background-color: hsl(195, 74%, 62%);
+    width: 180px;
+    height: 190px;
+    border-radius: 10px;
+}
+.study {
+    background-color: hsl(348, 100%, 68%);
+    width: 180px;
+    height: 190px;
+    border-radius: 10px;
+}
+.exercise {
+    background-color: hsl(145, 58%, 55%);
+    width: 180px;
+    height: 190px;
+    border-radius: 10px;
+}
+.social {
+    background-color: hsl(264, 64%, 52%);
+    width: 180px;
+    height: 190px;
+    border-radius: 10px;
+}
+.self {
+    background-color: hsl(43, 84%, 65%);
+    width: 180px;
+    height: 190px;
+    border-radius: 10px;
+}
